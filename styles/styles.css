@@ -180,3 +180,18 @@ p{
   grid-column-start: 1;
   list-style: none;
 }
+
+.footer{
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+.footer a{
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+.footer li{
+  display: inline-block;
+  list-style: none;
+}
