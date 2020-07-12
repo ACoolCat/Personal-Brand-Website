@@ -55,11 +55,14 @@ p{
   color: ghostwhite;
   text-shadow: 2px 2px black;
   font-weight: bold;
+  text-decoration: none;
+
 }
 
 .projects a:hover{
   color: ghostwhite;
   text-shadow: 1px 1px black;
+  text-decoration: underline;
 }
 
 .projects img{
@@ -194,4 +197,8 @@ p{
 .footer li{
   display: inline-block;
   list-style: none;
+}
+
+.music{
+  display: none;
 }
