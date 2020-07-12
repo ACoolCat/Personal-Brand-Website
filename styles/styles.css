@@ -37,3 +37,140 @@ body{
   text-align: center;
   text-shadow: 2px 2px black;
 }
+
+.projects{
+  color: ghostwhite;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.projects a{
+  color: ghostwhite;
+  text-shadow: 2px 2px black;
+}
+
+.projects a:hover{
+  color: ghostwhite;
+  text-shadow: 0px 0px black;
+}
+
+.projects img{
+  width: 100px;
+  height: 100px;
+}
+
+.solo{
+  display: grid;
+  grid-template-columns: auto auto 100vh;
+  grid-template-rows: 40px auto 100px 40px auto;
+  text-align: left;
+}
+
+#scp{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+}
+
+#scpTitle{
+  grid-row-start: 1;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#scpText{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#pac{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start:  1;
+}
+
+#pacTitle{
+  grid-row-start: 4;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#pacText{
+  grid-row-start: 5;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.group{
+  display: grid;
+  grid-template-columns: auto auto 100vh;
+  grid-template-rows: 40px auto auto auto 100px 40px auto auto auto;
+  text-align: left;
+}
+
+#cohort{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+}
+
+#cohortTitle{
+  grid-row-start: 1;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#cohortText{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#cohortCite{
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+#cohortList{
+  grid-row-start: 4;
+  grid-column-start: 1;
+  list-style: none;
+}
+
+#wish{
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 1;
+}
+
+#wishTitle{
+  grid-row-start: 6;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#wishText{
+  grid-row-start: 7;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#wishCite{
+  grid-row-start: ;
+  grid-column-start: 1
+}
+
+#wishList{
+  grid-row-start: 9;
+  grid-column-start: 1;
+  list-style: none;
+}
