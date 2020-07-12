@@ -1,5 +1,9 @@
 *{
   border: 1px solid gold;
+  background-image: url("../IMGS/background.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 body{
@@ -21,4 +25,15 @@ body{
 .title{
   grid-row-start: 2;
   grid-column-start: 2;
+  background: inherit;
+}
+
+.title h1{
+  background: inherit;
+}
+
+.me{
+  color: ghostwhite;
+  text-align: center;
+  text-shadow: 2px 2px black;
 }
