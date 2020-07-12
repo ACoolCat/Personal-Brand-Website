@@ -132,14 +132,12 @@ p{
   grid-row-start: 1;
   grid-column-start: 2;
   margin: 0px;
-  margin-top: 0px;
-  float: top;
 }
 
 #cohortText{
   grid-row-start: 2;
   grid-column-start: 2;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 #cohortCite{
@@ -170,6 +168,7 @@ p{
   grid-row-start: 7;
   grid-column-start: 2;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 #wishCite{
