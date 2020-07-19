@@ -51,13 +51,13 @@ p{
 .me{
   color: ghostwhite;
   text-align: center;
-  text-shadow: 2px 2px black;
+  text-shadow: black 1px 0 10px;
 }
 
 .projects{
   color: ghostwhite;
   text-align: center;
-  text-shadow: 2px 2px black;
+  text-shadow: black 1px 0 10px;
 }
 
 .projects a{
@@ -70,7 +70,7 @@ p{
 
 .projects a:hover{
   color: ghostwhite;
-  text-shadow: 1px 1px black;
+  text-shadow: black 1px 0 10px;
   text-decoration: underline;
 }
 
