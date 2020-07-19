@@ -84,6 +84,7 @@ p{
   grid-template-columns: 100px auto 100vh;
   grid-template-rows: 50px auto auto;
   text-align: left;
+  margin-left: 0px;
 }
 
 #pac{
