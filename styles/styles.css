@@ -82,45 +82,25 @@ p{
 .solo{
   display: grid;
   grid-template-columns: auto auto 100vh;
-  grid-template-rows: 40px auto 100px 40px auto;
+  grid-template-rows: 40px auto 100px;
   text-align: left;
 }
 
-#scp{
+#pac{
   grid-row-start: 1;
   grid-row-end: 2;
-  grid-column-start: 1;
-}
-
-#scpTitle{
-  grid-row-start: 1;
-  grid-column-start: 2;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-#scpText{
-  grid-row-start: 2;
-  grid-column-start: 2;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-#pac{
-  grid-row-start: 4;
-  grid-row-end: 5;
   grid-column-start:  1;
 }
 
 #pacTitle{
-  grid-row-start: 4;
+  grid-row-start: 1;
   grid-column-start: 2;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 #pacText{
-  grid-row-start: 5;
+  grid-row-start: 2;
   grid-column-start: 2;
   margin-top: 0px;
   margin-bottom: 0px;
