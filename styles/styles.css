@@ -110,7 +110,7 @@ p{
 .group{
   display: grid;
   grid-template-columns: 100px auto 100vh;
-  grid-template-rows: 50px auto auto auto 100px 50px auto auto auto;
+  grid-template-rows: 50px auto auto auto 50px 50px auto auto auto;
   text-align: left;
 }
 
