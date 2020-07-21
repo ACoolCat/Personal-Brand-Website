@@ -49,9 +49,12 @@ p{
 }
 
 .me{
-  color: white;
-	font-size: 40px;
-	-webkit-text-stroke: 2px black;
+  color: ghostwhite;
+  text-align: center;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
 }
 
 .projects{
