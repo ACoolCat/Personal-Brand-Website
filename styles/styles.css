@@ -49,9 +49,9 @@ p{
 }
 
 .me{
-  color: ghostwhite;
-  text-align: center;
-  text-shadow: -1px 1px 0 #000,
+  color: green;
+	font-size: 40px;
+	text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
 				 1px -1px 0 #000,
 				-1px -1px 0 #000;
