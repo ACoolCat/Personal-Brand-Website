@@ -52,12 +52,16 @@ p{
   color: ghostwhite;
   text-align: center;
   text-shadow: 2px 2px black;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .projects{
   color: ghostwhite;
   text-align: center;
   text-shadow: 2px 2px black;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .projects a{
