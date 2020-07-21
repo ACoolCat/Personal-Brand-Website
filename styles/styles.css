@@ -51,13 +51,13 @@ p{
 .me{
   color: ghostwhite;
   text-align: center;
-  text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+  text-shadow: -1px 1px 0 black, 1px 1px 0 black, -1px -1px 0 black, -1px -1px 0 black;
 }
 
 .projects{
   color: ghostwhite;
   text-align: center;
-  text-shadow: 2px 2px black;
+  text-shadow: -1px 1px 0 black, 1px 1px 0 black, -1px -1px 0 black, -1px -1px 0 black;
 }
 
 .projects a{
@@ -110,7 +110,7 @@ p{
 .group{
   display: grid;
   grid-template-columns: 100px auto 100vh;
-  grid-template-rows: 50px auto auto auto auto auto auto auto auto;
+  grid-template-rows: 50px auto auto auto 50px auto auto auto auto;
   text-align: left;
 }
 
@@ -144,32 +144,32 @@ p{
 }
 
 #wish{
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 6;
   grid-column-start: 1;
 }
 
 #wishTitle{
-  grid-row-start: 6;
+  grid-row-start: 5;
   grid-column-start: 2;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 #wishText{
-  grid-row-start: 7;
+  grid-row-start: 6;
   grid-column-start: 2;
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
 #wishCite{
-  grid-row-start: 8;
+  grid-row-start: 7;
   grid-column-start: 1
 }
 
 #wishList{
-  grid-row-start: 9;
+  grid-row-start: 8;
   grid-column-start: 1;
   list-style: none;
 }
@@ -196,8 +196,14 @@ p{
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px){
   .welcome{
+    grid-template-columns: none;
+    grid-template-rows: none;
     background: inherit;
-    height: 50vh
+    height: 50vh;
+    color: black;
+    text-shadow: -1px 1px 0 white, 1px 1px 0 white, -1px -1px 0 white, -1px -1px 0 white;
+    font-size: 40px;
+    text-align: center;
   }
 
   .me {
@@ -220,33 +226,18 @@ p{
   .solo{
     display: grid;
     grid-template-columns: 30% auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto;
     text-align: left;
-  }
-
-  #scp{
-    grid-column-start: 2;
-    grid-row-start: 1;
-  }
-
-  #scpTitle{
-    grid-column-start: 2;
-    grid-row-start: 2;
-    font-size: 30px;
-  }
-
-  #scpText{
-    display: none;
   }
 
   #pac{
     grid-column-start: 2;
-    grid-row-start: 3;
+    grid-row-start: 1;
   }
 
   #pacTitle{
+    grid-row-start: 2;
     grid-column-start: 2;
-    grid-row-start: 4;
     font-size: 30px;
   }
 
