@@ -82,7 +82,7 @@ p{
 .solo{
   display: grid;
   grid-template-columns: 100px auto 100vh;
-  grid-template-rows: 50px auto auto;
+  grid-template-rows: 50px auto auto auto auto;
   text-align: left;
   margin-left: 0px;
 }
@@ -102,6 +102,26 @@ p{
 
 #pacText{
   grid-row-start: 2;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#anime{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+}
+
+#animeTitle{
+  grid-row-start: 3;
+  grid-column-start: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#animeText{
+  grid-row-start: 4;
   grid-column-start: 2;
   margin-top: 0px;
   margin-bottom: 0px;
