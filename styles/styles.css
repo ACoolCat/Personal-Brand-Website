@@ -82,7 +82,7 @@ p{
 .solo{
   display: grid;
   grid-template-columns: 100px auto 100vh;
-  grid-template-rows: 50px auto 50px auto;
+  grid-template-rows: 50px 100px 50px auto;
   text-align: left;
   margin-left: 0px;
 }
